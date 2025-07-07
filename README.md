@@ -7,6 +7,8 @@ This repository contains the project files and documentation for an e-commerce d
 ## Database Normalization and Optimization
 ## 1. Normalization to 3NF
 We started by normalizing three initial tables to Third Normal Form (3NF) to reduce redundancy and improve data integrity:
+![image](https://github.com/user-attachments/assets/177b45d4-e465-4926-a591-a39d92dff1c8)
+
 
 Removed partial dependencies and transitive dependencies.
 Ensured that all non-key attributes are fully functionally dependent on the primary key.
@@ -34,7 +36,8 @@ Non-clustered indexes on frequently queried columns to speed up search operation
 Subtree cost for "Total Sales per Customer" reduced by 61%
 Subtree cost for "Total Sales per Product" reduced by 13%
 Subtree cost for "Total Sales per City" reduced by 35%
-metrics
+![image](https://github.com/user-attachments/assets/acbbe7f5-aaaa-4bf6-84f9-8410093e0af8)
+
 
 Key Features Implemented
 ## 7. Stored Procedures
@@ -59,7 +62,9 @@ The BI solution was exported and packaged for deployment in a Microsoft SQL Serv
 
 Some Examples:
 Quantity Ordered by Date Quantity Ordered by Date
+![image](https://github.com/user-attachments/assets/6b5448bf-035e-4ade-9a26-4aa0d9ca958d)
 
 Sales and Quantity by Day Sales and Quantity by day
+![image](https://github.com/user-attachments/assets/4b392208-b63c-4b5f-8954-eeee4340417c)
 
-Sales and Quantity by Product Sales and Quantity by Product
+
