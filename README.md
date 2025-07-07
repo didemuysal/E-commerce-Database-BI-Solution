@@ -36,10 +36,10 @@ Non-clustered indexes on frequently queried columns to speed up search operation
 Subtree cost for "Total Sales per Customer" reduced by 61%
 Subtree cost for "Total Sales per Product" reduced by 13%
 Subtree cost for "Total Sales per City" reduced by 35%
+
 ![image](https://github.com/user-attachments/assets/acbbe7f5-aaaa-4bf6-84f9-8410093e0af8)
 
 
-Key Features Implemented
 ## 7. Stored Procedures
 We developed two stored procedures to handle order creation:
 
